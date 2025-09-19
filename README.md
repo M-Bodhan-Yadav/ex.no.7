@@ -1,40 +1,119 @@
-# Exno.7-Develop a prompt-based application tailored to their personal needs, fostering creativity and practical problem-solving skills while leveraging the capabilities of large language models.
+# Ex.No: 7  
+**Date:** 19-09-25
+**Register No.:** 212223030021
 
-# Date:
-# Register no.
-# Aim: To develop a prompt-based application using ChatGPT - To demonstrate how to create a prompt-based application to organize daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
+---
 
-#AI Tools Required: 
+## Aim  
+To develop a **prompt-based personal productivity assistant** using ChatGPT, showcasing the progression from simple prompt design to adaptive interaction for managing tasks, scheduling reminders, suggesting wellness tips, and answering general queries.  
 
+---
 
-# Explanation: 
-Prompt:
-"Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user’s changing preferences over time."
-Procedure:
-1. Define the core requirements of a personal productivity assistant.
-2. Identify and construct appropriate prompts for each task using an LLM (e.g., ChatGPT).
-3. Simulate natural user interaction through a simple interface or command-line system.
-4. Collect feedback or inputs from users and adapt responses accordingly.
-5. (Optional) Integrate basic memory to simulate preference adaptation.
-EXPECTED OUTPUT: - (attached the drive link)
-Output (Example Response by LLM):
-Personal Productivity Assistant Features:
-1. Daily Task Manager:
-o Accept tasks via natural language (e.g., "Remind me to call mom at 6 PM").
-o Organize tasks by priority and deadline.
-o Provide daily summaries and pending items.
-2. Smart Scheduler:
-o Schedule events and set reminders using contextual understanding.
-o Notify user of overlapping appointments or free time slots.
-3. Wellness Tips Generator:
-o Suggest daily wellness advice (hydration, exercise, screen-time breaks).
-o Adapt suggestions based on past user preferences and responses.
+## AI Tools Required  
+- ChatGPT (LLM)  
+- Prompt engineering techniques  
+- *(Optional)* Python/command-line or web-based UI  
 
+---
 
+## Explanation  
+The application leverages **Large Language Models (LLMs)** to create a **personal productivity assistant**. Unlike traditional systems, it interacts in **natural language**, adapts to user preferences, and enhances task management efficiency.  
 
-# Result: 
-The lab exercise resulted in the creation of a prototype concept for a personal assistant powered by large language models. Students were able to:
- Understand how to tailor LLM prompts to real-life applications.
- Foster creativity by designing features suited to their personal or academic lives.
- Learn prompt engineering techniques for optimal interaction with AI tools.
- Experience the versatility and utility of generative AI in solving everyday problems.
+The development follows three levels:  
+
+- **Level 1 (Basic Prompting):** Simple reminders and task inputs.  
+- **Level 2 (Contextual Prompting):** Task organization, scheduling conflicts, summaries.  
+- **Level 3 (Adaptive Prompting):** Memory-based personalization, wellness tracking, intelligent suggestions.  
+
+---
+
+## Prompt
+Design a personal productivity assistant that can help manage daily tasks, schedule reminders,
+suggest wellness tips, and answer general queries. The assistant should interact using natural
+language and be adaptable to the user’s changing preferences over time.
+
+---
+
+## Procedure  
+
+| Step No. | Activity | Description |  
+|----------|-----------|-------------|  
+| 1 | Requirement Definition | Define daily tasks, scheduling, wellness, and query answering. |  
+| 2 | Prompt Construction | Create specific prompts for each feature. |  
+| 3 | Simulation of Interaction | Test using ChatGPT or simple UI. |  
+| 4 | Feedback & Adaptation | Refine prompts based on user inputs. |  
+| 5 | Integration of Memory | Add preference storage for personalization (optional). |  
+
+---
+
+## Expected Output  
+
+### Table 1: Core Features of the Assistant  
+
+| Feature | Functionality | Example Prompt | Example Output |  
+|---------|---------------|----------------|----------------|  
+| Task Manager | Add, prioritize, and remind tasks | “Remind me to call mom at 6 PM” | ✅ Reminder set at 6 PM |  
+| Scheduler | Detect conflicts, suggest slots | “Schedule study after 3 PM lab” | 📌 Study block added 6–8 PM |  
+| Wellness Tips | Suggest health & lifestyle advice | “Give me a wellness tip” | 🌱 “Take a 10-min walk” |  
+| Query Handler | Answer academic/general queries | “Explain Bernoulli’s principle” | ✍️ Detailed explanation provided |  
+
+---
+
+### Graph 1: Evolution of Prompt Complexity  
+Adaptiveness ↑
+|        ● Level 3 (Adaptive)
+|
+|   ● Level 2 (Contextual)
+|
+| ● Level 1 (Basic)
+|__________________________→ Task Complexity
+
+- Level 1 → Simple, direct reminders.  
+- Level 2 → Handles context and multi-step instructions.  
+- Level 3 → Learns preferences and adapts responses.  
+
+---
+
+### Flow Diagram: Interaction Process  
+User Input → Prompt → LLM Processing → Assistant Response
+|                                     |
+└── Feedback & Preferences <──────────┘
+
+---
+
+## Sample Simulation  
+
+**User:**  
+`Remind me to submit my assignment by 8 PM and suggest a quick break.`  
+
+**Assistant:**  
+✅ Task reminder set: Submit assignment at 8 PM.  
+☕ Suggested break: 15-minute stretch at 3:30 PM.  
+
+---
+
+**User:**  
+`Tomorrow I have a lab from 10–1, add study time in evening.`  
+
+**Assistant:**  
+📌 Study block 6–8 PM added. No conflicts detected.  
+
+---
+
+**User:**  
+`Wellness tip for today.`  
+
+**Assistant:**  
+🌱 Drink 2L water, add 20-min digital detox after dinner.  
+
+---
+
+## Result  
+The lab exercise produced a **prototype concept for a prompt-driven personal assistant**. Students achieved:  
+
+- Mastery of **prompt engineering techniques**.  
+- Application of **LLM intelligence** for real-world productivity.  
+- Understanding of **adaptive AI behavior** with user preference integration.  
+- Visualization of AI as a **tool for daily problem-solving**.  
+
+Thus, this experiment highlights how **prompt-based applications bridge human needs and AI intelligence**, forming the foundation for more advanced productivity systems.  
